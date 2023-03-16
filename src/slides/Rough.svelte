@@ -1,10 +1,17 @@
 <script>
-  import Notes from '../lib/Notes.svelte';
-  import invision from '../assets/invision.png';
-  import drawio from '../assets/drawio.png';
+    import Section from '../lib/slide/Section.svelte'
+    import Notes from '../lib/Notes.svelte';
+    import invision from '../assets/invision.png';
+    import drawio from '../assets/drawio.png';
 </script>
 
 <section>
+    <Section>
+        <span slot="title">II. step forward</span>
+        <Notes>
+            – Шаг навстречу
+        </Notes>
+    </Section>
     <section>
         <h2>Rough estimation</h2>
     </section>
@@ -26,17 +33,6 @@
             - кинестет - движение, ощущения
             - дискретный - логика взаимодействия, схемы, планы (он же дигитал)
             Никто не воспринимает текст как есть...
-        </Notes>
-    </section>
-    <section>
-        <h3>Draw the application</h3>
-        <p class="fragment"> 👨‍🎓📱 📚 📝💰</p>
-        <p class="fragment">👩‍🏫💻 📄 ☑️</p>
-        <p class="fragment">👨‍💻💻 📈</p>
-        <Notes>
-            Пан Єрмак писал документацию.
-            Давайте разгадаем ребус.
-            Тут есть роли, сущности, устройства, каждый придумает своё...
         </Notes>
     </section>
     <section>
@@ -69,7 +65,18 @@
         </ul>
     </section>
     <section>
-        <h3>Meeting with esimation team</h3>
+        <h3>Draw the application</h3>
+        <p class="fragment"> 👨‍🎓📱 📚 📝💰</p>
+        <p class="fragment">👩‍🏫💻 📄 ☑️</p>
+        <p class="fragment">👨‍💻💻 📈</p>
+        <Notes>
+            Пан Єрмак писал документацию.
+            Давайте разгадаем ребус.
+            Тут есть роли, сущности, устройства, каждый придумает своё...
+        </Notes>
+    </section>
+    <section>
+        <h3>Meeting with estimation team</h3>
         <p class="fragment">knowledge sharing</p>
         <Notes>
             Приходите на этот митинг подготовленным, не поленитесь нарисовать пару скринов (вы же их рисовали?)

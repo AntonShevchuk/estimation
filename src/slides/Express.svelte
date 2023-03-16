@@ -1,19 +1,29 @@
 <script>
-  import Notes from '../lib/Notes.svelte';
+    import Section from '../lib/slide/Section.svelte'
+    import Content from '../lib/slide/Content.svelte'
+    import Notes from '../lib/Notes.svelte'
 </script>
 
 <section>
-    <section>
+    <Section>
+        <span slot="title">I. first impression</span>
+        <Notes>
+            – Express estimation of a project is a crucial factor for businesses as it represents the first impression for deadlines.<br/>
+            – The accuracy and promptness of an estimation can make or break a project, impacting both the budget and the overall success of the project. <br/>
+            – Therefore, it is essential to have a reliable estimation process in place to ensure the project's success.
+        </Notes>
+    </Section>
+    <Content>
         <h2>Express Estimation</h2>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Business idea</h3>
         <Notes>
             Клиент — это пользователь системы, который и будет приносить деньги вашему заказчику
             Вы должны понимать, какую проблему решает проект для клиента!
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <p class="">Our product is <span>…</span> for <span>…</span>.</p>
         <p class="fragment">It helps to solve the <span>…</span> problem.</p>
         <p class="fragment">Our competitive advantage is <span>…</span></p>
@@ -29,8 +39,8 @@
             Поддержка радиоэфира.
             Заказчик сам дальнобойщик, планирует получать деньги за рекламу на сайте.
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Any estimation</h3>
         <p class="fragment">Better than «nothing»</p>
         <Notes>
@@ -40,14 +50,14 @@
             в эфир, для поиска такого решения нам потребуется неделя рабочего времени, если такая система есть,
             то интеграция подобного API не должна занять больше 40 часов разработки.
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Hypothesis</h3>
         <Notes>
             Our hypothesis is our foundation!
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Estimation based on the Hypothesis</h3>
         <ul>
             <li class="fragment">We give an estimate for our hypothesis</li>
@@ -74,8 +84,8 @@
 
             Сообщения в радиоэфир будут отправляться по ургентным событиям.
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Estimation step-by-step</h3>
         <ul>
             <li class="fragment">What is the area of the room?</li>
@@ -89,11 +99,11 @@
             Вспомнить про собеседование в гугл и задачу про теннисные мячики и автобус
             (можно взять коробку и мячики для настольного тенниса для наглядной демонстрации)
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Express estimation</h3>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>E<span style="color: red">spresso</span> estimation</h3>
         <div class="r-hstack justify-around items-start">
             <div class="fragment items-start">
@@ -119,11 +129,11 @@
         <Notes>
             Экспресс может занимать и больше времени, но мы хотим стремиться к идеалу!
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Check yourself</h3>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>Estimation cheatsheet</h3>
         <div class="r-hstack justify-around items-start">
             <div>
@@ -198,8 +208,8 @@
         <Notes>
             <a href="https://twitter.com/sevaorlasvegas/status/1153635852997865473">source of this joke</a>
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <h3>(
             <strong style="color: red">∑</strong><span style="font-size: xx-large">role</span> +
             <strong style="color: red">∑</strong><span style="font-size: xx-large">entity</span> +
@@ -211,8 +221,8 @@
             Роль, порождает проверку и разделение прав
             Интеграция может занимать от 10 минут (Google Analytics) и до овер-дофига (платёжка Нигерии)
         </Notes>
-    </section>
-    <section>
+    </Content>
+    <Content>
         <p>
             How realistic is it <br/>to complete the "<strong>business idea</strong>" in <strong style="color: red; font-size: xxx-large">XX</strong> hours,<br/>
             which will cost the customer <strong style="color: red; font-size: xxx-large">$$</strong> money?
@@ -230,5 +240,5 @@
             — Это будет блог на Wordpress, встраивать будем видео с YouTube, редактирование оставляем на YouTube,
             за это надо будет заплатить $5000 и мы сделаем за неделю — для компании которая арендует офис в 20м² это приемлемо.
         </Notes>
-    </section>
+    </Content>
 </section>

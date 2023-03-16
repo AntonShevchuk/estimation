@@ -2,14 +2,15 @@
     import Slide from '../Slide.svelte'
 </script>
 <Slide>
-    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-black via-white to-black opacity-20"></div>
-    <p>
+    <h2>
         <slot name="title">
             <span class="missing">Unknown title</span>
         </slot>
-    </p>
-    <p class="fragment">
-        <slot name="caption"></slot>
-    </p>
+    </h2>
+    {#if $$slots.caption}
+        <p class="fragment">
+            <slot name="caption"></slot>
+        </p>
+    {/if}
     <slot/>
 </Slide>

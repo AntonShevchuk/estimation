@@ -4,7 +4,6 @@
     import { Icon } from '@steeze-ui/svelte-icon'
 </script>
 <Slide>
-    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-black via-white to-black opacity-20"></div>
     <h1>
         <slot name="title">
             <span class="missing">Unknown title</span>
