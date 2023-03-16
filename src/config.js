@@ -11,7 +11,7 @@ import 'reveal.js/plugin/highlight/monokai.css';
 export default {
     // App Config
     app: {
-        name: 'Estimation',
+        name: 'Estimation :: Anton Shevchuk',
     },
     // Reveal Config
     reveal: {
