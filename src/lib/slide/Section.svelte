@@ -2,13 +2,13 @@
     import Slide from '../Slide.svelte'
 </script>
 <Slide background="section">
-    <h3>
+    <h3 class="lowercase font-mono">
         <slot name="title">
             <span class="missing">Unknown title</span>
         </slot>
     </h3>
     {#if $$slots.caption}
-        <p class="fragment">
+        <p class="fragment lowercase font-mono">
             <slot name="caption"></slot>
         </p>
     {/if}

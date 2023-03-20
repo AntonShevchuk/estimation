@@ -23,7 +23,23 @@ a deep understanding of the project's goals and objectives.
 Overall, this presentation will provide a comprehensive overview of the estimation process, including the various stages
 involved and the importance of each stage in ensuring that the project is estimated accurately and effectively.
 
-## References about engine
+## Presentation
+
+https://antonshevchuk.github.io/estimation/
+
+## Local instance
+
+You can build the presentation locally:
+
+```bash
+npm install
+npm run build
+npm run preview
+```
+
+And than open http://127.0.0.1:4173/ page to open the presentation.
+
+## References
 
 - [Svelte-slides template](https://github.com/rajasegar/svelte-slides)
 - [Svelte](https://svelte.dev)

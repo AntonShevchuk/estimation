@@ -4,7 +4,7 @@
 </script>
 <section>
     <Section>
-        <span slot="title">III. finish line</span>
+        <span slot="title">03. finish line</span>
         <Notes>
             – Финишная прямая, и мы закончим оценку
         </Notes>
