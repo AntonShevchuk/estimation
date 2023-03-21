@@ -2,7 +2,7 @@
     import Slide from '../Slide.svelte'
 </script>
 <Slide>
-    <h3 class="text-4xl text-gray-400 mt-60">
+    <h3 class="text-4xl text-gray-300 mt-60">
         <slot>
             <span class="missing">Unknown title</span>
         </slot>

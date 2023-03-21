@@ -5,17 +5,17 @@
 </script>
 <Slide>
     <h1>
-        <slot name="title">
-            <span class="missing">Unknown title</span>
-        </slot>
+        <slot name="title"><span class="missing">Unknown title</span></slot>
     </h1>
     <p class="text-center">
         <span class="inline-block">
             <Icon src={Sparkles} size="24px" theme="solid" class="animate-pulse text-sky-500" />
         </span>
     </p>
-    <p class="fragment">
-        <slot name="caption"></slot>
-    </p>
+    {#if $$slots.caption}
+        <p class="fragment">
+            <slot name="caption"></slot>
+        </p>
+    {/if}
     <slot/>
 </Slide>

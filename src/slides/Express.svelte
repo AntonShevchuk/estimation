@@ -2,7 +2,7 @@
     import Section from '../lib/slide/Section.svelte'
     import Content from '../lib/slide/Content.svelte'
     import Caption from '../lib/slide/Caption.svelte'
-    import Notes from '../lib/Notes.svelte'
+    import Notes from '../lib/partial/Notes.svelte'
     import {
         ArrowTrendingDown,
         ArrowTrendingUp,
@@ -46,7 +46,10 @@
     <Content>
         <h3>
             Business idea
-            <Icon src={LightBulb} size="3rem" theme="outline" class="inline text-sky-500 mb-4"/>
+
+            <span class="w-8 h-8 mb-4 inline-block">
+                <Icon src={LightBulb} theme="outline" class="inline text-sky-500" />
+            </span>
         </h3>
         <Notes>
             — Клиент — это пользователь системы, который и будет приносить деньги вашему заказчику<br/>
@@ -89,7 +92,9 @@
     <Content>
         <h3>
             Hypothesis
-            <Icon src={ChatBubbleLeftEllipsis} size="3rem" theme="outline" class="inline text-sky-500 mb-4"/>
+            <span class="w-8 h-8 mb-4 inline-block">
+                <Icon src={ChatBubbleLeftEllipsis} theme="outline" class="inline text-sky-500" />
+            </span>
         </h3>
         <Notes>
             Our hypothesis is our foundation!
@@ -98,15 +103,14 @@
     <Content>
         <h3>Estimation based on the Hypothesis</h3>
         <ul>
-            <li class="fragment">We give an estimate for our hypothesis</li>
-            <li class="fragment">We break down "complex" things into simple components</li>
-            <li class="fragment">We identify points that require additional research</li>
-            <li class="fragment">We describe the risks that we see at this stage</li>
-            <li class="fragment">If possible, we provide two or more hypotheses</li>
+            <li class="fragment">Strive to describe hypothesis in detail</li>
+            <li class="fragment">Provide an estimate for our hypothesis</li>
+            <li class="fragment">Break down "complex" into simple components</li>
+            <li class="fragment">Identify integration points</li>
+            <li class="fragment">Identify points requiring additional research</li>
+            <li class="fragment">Describe the risks that we see</li>
+            <li class="fragment">Provide two or more hypotheses if possible</li>
         </ul>
-        <p class="fragment">
-            We strive to describe our hypothesis in detail, separately addressing risks and integration points.
-        </p>
         <Notes>
             Надо провести «неточные» вычисления вашей гипотезы, декомпозировать самые «страшные» моменты,<br/>
             возможно стоит провести исследования для уточнения данных. Всё это мы должны озвучить!<br/>
@@ -131,7 +135,9 @@
         <div class="flex flex-row">
             <div class="basis-1/2 m-4">
                 <h5>
-                    <Icon src={ArrowTrendingDown} size="3rem" theme="outline" class="inline text-sky-500 mb-4"/>
+                    <span class="w-8 h-8 mb-4 inline-block">
+                        <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
+                    </span>
                     Input
                 </h5>
                 <ul class="text-left">
@@ -143,11 +149,13 @@
             <div class="basis-1/2 m-4">
                 <h5>
                     Output
-                    <Icon src={ArrowTrendingUp} size="3rem" theme="outline" class="inline text-sky-500 mb-4"/>
+                    <span class="w-8 h-8 mb-4 inline-block">
+                        <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500" />
+                    </span>
                 </h5>
                 <ul class="text-left">
                     <li>Hypothesis<span class="text-red-600">*</span></li>
-                    <li class="whitespace-nowrap">Rough estimation</li>
+                    <li class="whitespace-nowrap">Estimation for hypothesis</li>
                     <li>Questions</li>
                     <li>Risks</li>
                 </ul>
@@ -166,13 +174,28 @@
         </Notes>
     </Content>
     <Content>
+        <h3>Estimation step-by-step</h3>
+        <ul>
+            <li class="fragment">What is the area of the room?</li>
+            <li class="fragment">What is the height of the building?</li>
+            <li class="fragment">How many steps are on the staircase?</li>
+        </ul>
+        <Notes>
+            Проводим декомпозицию до знакомых и осязаемых сущностей.<br/>
+            38-мь попугаев и одно попугайское крылышко это тоже хороший пример оценки исходя из доступных<br/>
+            инструментов.<br/>
+            Вспомнить про собеседование в гугл и задачу про теннисные мячики и автобус<br/>
+            (можно взять коробку и мячики для настольного тенниса для наглядной демонстрации)
+        </Notes>
+    </Content>
+    <Content>
         <h3>Check yourself</h3>
     </Content>
     <Content>
         <h3>Estimation cheatsheet</h3>
         <div class="r-hstack justify-around items-start">
             <div>
-                <table class="text-lg">
+                <table class="text-lg table-auto">
                     <tr>
                         <td>too easy</td>
                         <td>1 m/h</td>
@@ -216,7 +239,7 @@
                 </table>
             </div>
             <div>
-                <table class="text-lg">
+                <table class="text-lg table-auto">
                     <tr>
                         <td>double hard</td>
                         <td class="text-right">80</td>
@@ -242,22 +265,6 @@
         </div>
         <Notes>
             <a href="https://twitter.com/sevaorlasvegas/status/1153635852997865473">source of this joke</a>
-        </Notes>
-    </Content>
-    <Content>
-        <h3>m/h</h3>
-        <ul>
-            <li>0.1 m/h<span class="fragment text-sky-500">&nbsp;— O_o</span></li>
-            <li>0.5 .. 1 m/h<span class="fragment text-sky-500">&nbsp;— you are forgot something</span></li>
-            <li>3 m/h<span class="fragment text-sky-500">&nbsp;— you will spend 4 m/h ;)</span></li>
-            <li>9 m/h<span class="fragment text-sky-500">&nbsp;— 8 hours for task and 1 more for ☕️ and 🚬</span></li>
-        </ul>
-        <h3 class="fragment mt-4">
-            1, 2, 4, 8, 12, 16, 24, 32, 40 m/h
-        </h3>
-        <Notes>
-            — Не нужно дробных частей
-            — Старайтесь придерживаться оценки в днях
         </Notes>
     </Content>
     <Content>
@@ -298,6 +305,7 @@
         </Notes>
     </Content>
     <Caption>
-        Be the experts, stay professional!
+        — If you win a project, I wish you success;<br/>
+        <span class="fragment">if not, let's go to next step</span>
     </Caption>
 </section>

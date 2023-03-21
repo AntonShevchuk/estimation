@@ -4,7 +4,7 @@
 <Slide background="section">
     <h3 class="lowercase font-mono">
         <slot name="title">
-            <span class="missing">Unknown title</span>
+            <span class="missing">Unknown section title</span>
         </slot>
     </h3>
     {#if $$slots.caption}

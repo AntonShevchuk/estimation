@@ -1,23 +1,25 @@
 <script>
-    import Title from '../lib/slide/Title.svelte'
+    import TitleSlide from '../lib/slide/TitleSlide.svelte'
     import TwoSides from '../lib/slide/TwoSides.svelte'
     import MainPoint from '../lib/slide/MainPoint.svelte'
-    import Notes from '../lib/Notes.svelte'
+    import Notes from '../lib/partial/Notes.svelte'
 </script>
-<Title>
+<TitleSlide>
     <span slot="title">To infinity and beyond</span>
     <span slot="caption">or story about how we do a estimation of projects</span>
     <Notes>
         – Here, when people talk about estimation, they almost always mean expert estimation.<br/>
         – We rarely encounter estimation for truly huge projects (I mean mre than 10 000 m/h).
     </Notes>
-</Title>
+</TitleSlide>
 <TwoSides>
     <span slot="title">Anton Shevchuk</span>
     <span slot="caption">
         <ul class="text-left mr-16">
             <li class="whitespace-nowrap">from 2005 in web development</li>
-            <li class="whitespace-nowrap">hundreds estimations</li>
+            <li class="whitespace-nowrap">hundreds of estimations behind me</li>
+            <li class="fragment whitespace-nowrap">not great</li>
+            <li class="fragment whitespace-nowrap">not terrible</li>
         </ul>
     </span>
     <img class="rounded-full" src="https://avatars.githubusercontent.com/u/142057?v=4" alt="Anton Shevchuk"/>

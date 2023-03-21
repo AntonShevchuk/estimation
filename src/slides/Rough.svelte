@@ -2,7 +2,7 @@
     import Section from '../lib/slide/Section.svelte'
     import Content from '../lib/slide/Content.svelte'
     import Caption from '../lib/slide/Caption.svelte'
-    import Notes from '../lib/Notes.svelte';
+    import Notes from '../lib/partial/Notes.svelte';
     import { ArrowTrendingDown, ArrowTrendingUp, Pencil, PresentationChartLine } from '@steeze-ui/heroicons'
     import { Icon } from '@steeze-ui/svelte-icon'
 </script>
@@ -39,7 +39,9 @@
     <Content>
         <h3>
             We need mockups
-            <Icon src={Pencil} size="3rem" theme="outline" class="inline text-sky-500 mb-4" />
+            <span class="w-8 h-8 mb-4 inline-block">
+                <Icon src={Pencil} theme="outline" class="inline text-sky-500" />
+            </span>
         </h3>
         <p class="fragment"><a href="https://www.invisionapp.com/">invision</a></p>
         <Notes>
@@ -53,9 +55,11 @@
     <Content>
         <h3>
             More mockups
-            <Icon src={PresentationChartLine} size="3rem" theme="outline" class="inline text-sky-500 mb-4" />
+            <span class="w-8 h-8 mb-4 inline-block">
+                <Icon src={PresentationChartLine} theme="outline" class="inline text-sky-500" />
+            </span>
         </h3>
-        <p class="fragment"><a href="https://draw.io">draw.io</a></p>
+        <p class="fragment"><a href="https://diagrams.net">diagrams.net</a> (draw.io)</p>
     </Content>
     <Content>
         <h3>Mockups, mockups, mockups</h3>
@@ -73,24 +77,9 @@
         <p class="fragment">👩‍🏫💻 📄 ☑️</p>
         <p class="fragment">👨‍💻💻 📈</p>
         <Notes>
-            — Давайте разгадаем ребус.
-            — Тут есть роли, сущности, устройства, каждый придумает своё...
+            — Давайте разгадаем ребус.<br/>
+            — Тут есть роли, сущности, устройства, каждый придумает своё...<br/>
             — Пан Єрмак писал документацию.
-        </Notes>
-    </Content>
-    <Content>
-        <h3>Estimation step-by-step</h3>
-        <ul>
-            <li class="fragment">What is the area of the room?</li>
-            <li class="fragment">What is the height of the building?</li>
-            <li class="fragment">How many steps are on the staircase?</li>
-        </ul>
-        <Notes>
-            Проводим декомпозицию до знакомых и осязаемых сущностей.<br/>
-            38-мь попугаев и одно попугайское крылышко это тоже хороший пример оценки исходя из доступных<br/>
-            инструментов.<br/>
-            Вспомнить про собеседование в гугл и задачу про теннисные мячики и автобус<br/>
-            (можно взять коробку и мячики для настольного тенниса для наглядной демонстрации)
         </Notes>
     </Content>
     <Content>
@@ -112,6 +101,22 @@
     </Content>
     <Content>
         <h3>Check yourself</h3>
+    </Content>
+    <Content>
+        <h3>m/h</h3>
+        <ul>
+            <li>0.1 m/h<span class="fragment text-sky-500">&nbsp;— O_o</span></li>
+            <li>0.5 .. 1 m/h<span class="fragment text-sky-500">&nbsp;— you are forgot something</span></li>
+            <li>3 m/h<span class="fragment text-sky-500">&nbsp;— you will spend 4 m/h ;)</span></li>
+            <li>9 m/h<span class="fragment text-sky-500">&nbsp;— 8 hours for task and 1 more for ☕️ and 🚬</span></li>
+        </ul>
+        <h3 class="fragment mt-4">
+            1, 2, 4, 8, 12, 16, 24, 32, 40 m/h
+        </h3>
+        <Notes>
+            — Не нужно дробных частей
+            — Старайтесь придерживаться оценки в днях
+        </Notes>
     </Content>
     <Content>
         <h3>Check list</h3>
@@ -147,7 +152,9 @@
         <div class="flex flex-row">
             <div class="basis-1/2 m-4">
                 <h5>
-                    <Icon src={ArrowTrendingDown} size="3rem" theme="outline" class="inline text-sky-500 mb-4" />
+                    <span class="w-8 h-8 mb-4 inline-block">
+                        <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
+                    </span>
                     Input
                 </h5>
                 <ul class="text-left">
@@ -160,17 +167,20 @@
             <div class="basis-1/2 m-4">
                 <h5>
                     Output
-                    <Icon src={ArrowTrendingUp} size="3rem" theme="outline" class="inline text-sky-500 mb-4" />
+                    <span class="w-8 h-8 mb-4 inline-block">
+                        <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500" />
+                    </span>
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Evaluation of all features</li>
+                    <li class="whitespace-nowrap">Estimation of all features</li>
                     <li class="whitespace-nowrap">Clarifying questions</li>
                     <li class="whitespace-nowrap">Visible risks</li>
+                    <li class="whitespace-nowrap">Estimation of all risks</li>
                 </ul>
             </div>
         </div>
     </Content>
     <Caption>
-        Who should check you?
+        — Not enough!
     </Caption>
 </section>

@@ -1,6 +1,9 @@
 <script>
     import Section from '../lib/slide/Section.svelte'
-    import Notes from '../lib/Notes.svelte';
+    import Caption from '../lib/slide/Caption.svelte'
+    import Content from '../lib/slide/Content.svelte'
+
+    import Notes from '../lib/partial/Notes.svelte';
 </script>
 <section>
     <Section>
@@ -9,10 +12,14 @@
             – Оценка, которая затянулась
         </Notes>
     </Section>
-    <section>
-        <h2>Discovery</h2>
-    </section>
-    <section>
+    <Content>
+        <h3>Discovery</h3>
+    </Content>
+    <Content>
         <h3>Decomposition</h3>
-    </section>
+    </Content>
+    <Caption>
+        — Last?<br/>
+        <span class="fragment"> — Yep</span>
+    </Caption>
 </section>

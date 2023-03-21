@@ -1,5 +1,5 @@
 <script>
-    import Background from './Background.svelte'
+    import Background from './partial/Background.svelte'
     // Custom backgrounds
     export let background = 'main'
     // Color Backgrounds
