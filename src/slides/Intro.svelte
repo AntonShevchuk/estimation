@@ -8,8 +8,9 @@
     <span slot="title">To infinity and beyond</span>
     <span slot="caption">or story about how we do a estimation of projects</span>
     <Notes>
+        - Коли ми кажемо про оцінку проєктів, то маємо на увазі експертну оцінку.<br/>
+        〰️〰️〰️<br/><br/>
         – Here, when people talk about estimation, they almost always mean expert estimation.<br/>
-        – We rarely encounter estimation for truly huge projects (I mean mre than 10 000 m/h).
     </Notes>
 </TitleSlide>
 <TwoSides>
@@ -28,7 +29,10 @@
     <span slot="title">We need high-quality estimation 🥹</span>
     <span slot="caption">We don't have time for it 🤮</span>
     <Notes>
+        — Точність оцінки зростає логаріфмічно залежно від часу який витрачаємо на неї.<br/>
+        — Час який потрібен для збільшення точності оцінювання зростає по експоненті.<br/>
+        〰️〰️〰️<br/><br/>
         – The accuracy of the estimate grows logarithmically depending on the effort.<br/>
-        – The effort required to increase the accuracy of project estimation grows exponentially.
+        – The effort required to increase the accuracy of project estimation grows exponentially.<br/>
     </Notes>
 </MainPoint>

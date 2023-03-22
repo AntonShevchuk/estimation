@@ -1,9 +1,11 @@
 <script>
     import Caption from '../lib/slide/Caption.svelte'
+    import MainPoint from '../lib/slide/MainPoint.svelte'
 </script>
-<Caption>
-    Be the experts, stay professional!
-</Caption>
+
+<MainPoint>
+    <span slot="title">Be the experts, stay professional!</span>
+</MainPoint>
 <Caption>
     Thank you for your time<br/>
     <br/>
