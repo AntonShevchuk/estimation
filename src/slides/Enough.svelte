@@ -4,7 +4,7 @@
 </script>
 
 <MainPoint>
-    <span slot="title">Be the experts, stay professional!</span>
+    <span slot="title">Be the experts,<br/> stay professional!</span>
 </MainPoint>
 <Caption>
     Thank you for your time<br/>

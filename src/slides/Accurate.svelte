@@ -4,6 +4,8 @@
     import Caption from '../lib/slide/Caption.svelte'
     import TwoSides from '../lib/slide/TwoSides.svelte'
     import Notes from '../lib/partial/Notes.svelte'
+    import Code from '../lib/partial/Code.svelte'
+
     import {
         ArrowTrendingDown,
         ArrowTrendingUp,
@@ -20,20 +22,28 @@
     import c4 from '../assets/c4.png'
     import cloudcraft from '../assets/cloudcraft.co.png'
     import diagrams from '../assets/diagrams.net.png'
+    import sequence from '../assets/sequencediagram.org.png'
+    import dbdiagram from '../assets/dbdiagram.io.png'
+    import apiary from '../assets/apiary.io.png'
 
 </script>
 <section>
     <Section>
         <span slot="title">03. finish line</span>
         <Notes>
-            – Финишная прямая, и мы закончим оценку
+            – Фінішна пряма, та покінчимо з цими оцінками
         </Notes>
     </Section>
     <Content>
         <h3>Accurate estimation</h3>
+
+        <p class="text-center text-xl bottom-4">
+            <a href="https://qwiki.nixs.com/x/MoMe">NIX Wiki</a>
+        </p>
+
         <Notes>
-            — Не всё так просто, точная оценка предъявляет повышенные требования к качеству<br/>
-            — Вы должны стремится к погрешности не более 15%
+            — Точна оцінка висуває підвищені вимоги до якості<br/>
+            — Ви повинні прагнути до похибки не більше 15%
         </Notes>
     </Content>
     <TwoSides>
@@ -47,14 +57,14 @@
             <img class="h-[6rem] opacity-60 absolute bottom-32 left-1/2" src="{kubernetes}" alt="Kubernetes"/>
         </div>
         <Notes>
-            — Вам нужно сделать куда как больше чем просто оценку
+            — Вам потрібно зробити куди як більше, ніж просто оцінку
         </Notes>
     </TwoSides>
     <TwoSides>
         <span slot="title">
             <a href="https://c4model.com/" title="C4 Model">C4 Model</a>
         </span>
-        <span slot="caption">
+        <div slot="caption">
             <ul>
                 <li>Context</li>
                 <li>Containers</li>
@@ -64,7 +74,7 @@
                 <li class="text-stone-500 whitespace-nowrap">Dynamic diagram</li>
                 <li class="text-stone-500 whitespace-nowrap">Deployment diagram</li>
             </ul>
-        </span>
+        </div>
         <div>
             <img src="{c4}" alt="C4 Model" />
         </div>
@@ -91,17 +101,121 @@
         <span slot="title">
             <a href="https://diagrams.net" title="diagrams.net">diagrams.net</a>
         </span>
-        <span slot="caption">
-            <ul class="list-none mr-16">
+        <div slot="caption">
+            <ul class="list-none mr-32">
                 <li>✅ AWS</li>
                 <li>✅ Azure</li>
                 <li>✅ GCP</li>
                 <li>✅ IBM</li>
                 <li>✅ C4 Model</li>
             </ul>
-        </span>
+        </div>
         <div>
             <img src="{diagrams}" alt="diagrams.net" />
+        </div>
+        <Notes>
+
+        </Notes>
+    </TwoSides>
+    <TwoSides>
+        <span slot="title">
+            <a href="https://sequencediagram.org/" title="sequencediagram.org">Sequence Diagrams</a>
+        </span>
+        <Code slot="caption">
+title Sequance diagram
+
+Alice-&gt;Bob: Request
+Alice&lt;--Bob: Responce
+
+note over Bob, Double click to edit text:
+    Click Help menu for **instructions**
+
+Bob-&gt;(3)Double click to edit text:
+    non-instantaneous message
+        </Code>
+        <div>
+            <img src="{sequence}" alt="sequencediagram.org" />
+        </div>
+        <Notes>
+
+        </Notes>
+    </TwoSides>
+    <TwoSides>
+        <span slot="title">
+            <a href="https://dbdiagram.io/" title="dbdiagram.io">DB Diagrams</a>
+        </span>
+        <Code slot="caption">
+// user
+Table user &lbrace;
+    id int [pk, not null]
+    email varchar [not null, unique]
+    status user_status
+    created timestamp
+    updated timestamp
+&rbrace;
+// user statuses
+Enum user_status &lbrace;
+    pending
+    active
+    disabled
+    removed
+&rbrace;
+Table acl_roles &lbrace;
+    id int [pk, not null]
+    name varchar(255) [not null]
+&rbrace;
+// ...
+        </Code>
+        <div>
+            <img src="{dbdiagram}" alt="dbdiagram.io" />
+        </div>
+        <Notes>
+            — Need more? — <a href="https://dbdocs.io/" title="dbdocs.io">dbdocs.io</a>!
+        </Notes>
+    </TwoSides>
+
+    <TwoSides>
+        <span slot="title">
+            <a href="https://apiary.io" title="apiary.io">apiary.io</a>
+        </span>
+        <Code slot="caption">
+FORMAT: 1A
+HOST: https://polls.apiblueprint.org/
+
+# Example
+
+Polls is a simple API allowing consumers to view polls and vote in them.
+
+## Questions Collection [/questions]
+
+### List All Questions [GET]
+
++ Response 200 (application/json)
+
+[
+    &lbrace;
+        "question": "Favourite programming language?",
+        "published_at": "2015-08-05T08:40:51.620Z",
+        "choices": [
+            &lbrace;
+                "choice": "Swift",
+                "votes": 2048
+            &rbrace;, &lbrace;
+                "choice": "Python",
+                "votes": 1024
+            &rbrace;, &lbrace;
+                "choice": "Objective-C",
+                "votes": 512
+            &rbrace;, &lbrace;
+                "choice": "Ruby",
+                "votes": 256
+            &rbrace;
+        ]
+    &rbrace;
+]
+        </Code>
+        <div>
+            <img src="{apiary}" alt="apiary.io" />
         </div>
         <Notes>
 
@@ -138,6 +252,7 @@
                 <ul class="text-left">
                     <li class="whitespace-nowrap">Evaluation of all features</li>
                     <li class="whitespace-nowrap">High level architecture</li>
+                    <li class="whitespace-nowrap">Draft of the Cloud</li>
                     <li class="whitespace-nowrap">Draft of the DB structure</li>
                     <li class="whitespace-nowrap">Draft of the API</li>
                 </ul>

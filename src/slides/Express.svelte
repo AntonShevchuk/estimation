@@ -2,7 +2,10 @@
     import Section from '../lib/slide/Section.svelte'
     import Content from '../lib/slide/Content.svelte'
     import Caption from '../lib/slide/Caption.svelte'
+
     import Notes from '../lib/partial/Notes.svelte'
+    import Badge from '../lib/partial/Badge.svelte'
+
     import {
         ArrowTrendingDown,
         ArrowTrendingUp,
@@ -46,6 +49,9 @@
                 </div>
             </div>
         </div>
+        <p class="text-center text-xl bottom-4">
+            <a href="https://qwiki.nixs.com/x/Y3QzBQ">NIX Wiki</a>
+        </p>
     </Content>
     <Content>
         <h3>
@@ -61,22 +67,30 @@
         </Notes>
     </Content>
     <Content>
-        <p class="">Our product is <span class="text-sky-500 text-xl">...</span> for <span
-                class="text-sky-500 text-xl">...</span>.</p>
-        <p class="fragment">It helps to solve the <span class="text-sky-500 text-xl">...</span> problem.</p>
-        <p class="fragment">Our competitive advantage is <span class="text-sky-500 text-xl">...</span></p>
-        <p class="fragment">The customer earns money from <span class="text-sky-500 text-xl">...</span></p>
+        <p class="leading-relaxed">
+            <Badge>Product name</Badge> is a <Badge>Product category</Badge> for <Badge>Target market</Badge>
+            that <Badge>Core benefit</Badge> by <Badge>Unique differentiator</Badge>
+        </p>
+        <p class="fragment leading-relaxed">
+            〰️〰️〰️<br/>
+            <Badge>Google</Badge> is a <Badge>search engine</Badge> for <Badge>everyone who uses the internet</Badge>
+            that <Badge>helps people quickly find relevant information</Badge>
+            by <Badge>having the best algorithms that deliver the fasters and relevant results</Badge>
+        </p>
         <Notes>
+            – Що робимо?<br/>
+            — Для кого робимо?<br/>
+            — Яку проблему вирішуємо?<br/>
+            — Як саме?<br/>
+        </Notes>
+    </Content>
+    <Content>
+        <h3>Where's the Money, Lebowski? 👀</h3>
+        <Notes>
+            — Не забувайте про гроші.
             <p>
-                Наш продукт, це сайт для студентів та вчителів.<br/>
-                Допомогає організувати віддалене навчання.<br/>
-                Це перший такий проєкт у Нігерії.<br/>
-                Замовник буде заробляти на проценті від курсів.
-            </p>
-
-            <p>
-                Наш проєкт, це сайт для далекобійників.<br/>
-                Далекбійникам важко знайти тематичні сайти з відгуками про замовників.<br/>
+                Наш проєкт, це сайт для далекобійників,<br/>
+                який зберігає відгуки про замовників.<br/>
                 Унікальний проєкт з підтримкою радіоетеру.<br/>
                 Замовник сам далекобійник, планує заробляти на рекламі.
             </p>
@@ -146,8 +160,8 @@
                 </h5>
                 <ul class="text-left">
                     <li class="whitespace-nowrap">Business idea</li>
-                    <li class="whitespace-nowrap">Customer info</li>
                     <li>Requirements<span class="text-red-600">*</span></li>
+                    <li class="whitespace-nowrap">Customer info</li>
                 </ul>
             </div>
             <div class="basis-1/2 m-4">
@@ -284,7 +298,7 @@
         <Notes>
             — Сутність, породжує CRUD або/та REST API + та ще трошки бізнес логіки<br/>
             — Ролі породжують перевірки та поділ прав<br/>
-            — Інтеграція може займати 10 хвилин (Google Analytics) або місяці (платіжна система Нігерії)
+            — Інтеграція може займати 10 хвилин (Google Analytics) або місяці (платіжна система Нігерії)<br/>
             — Звісно, для тих хто полюбляє мікросервіси, вам потрібно порахувати їхні інтеграції
         </Notes>
     </Content>

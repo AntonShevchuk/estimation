@@ -15,6 +15,9 @@
     </Section>
     <Content>
         <h2>Rough estimation</h2>
+        <p class="text-center text-xl bottom-4">
+            <a href="https://qwiki.nixs.com/x/AYMe">NIX Wiki</a>
+        </p>
     </Content>
     <Content>
         <h3>Nobody read f**king docs in 200 pages</h3>
@@ -104,6 +107,9 @@
             <li>Range of estimates - variability of implementation within our hypothesis</li>
             <li>All risks are identified and evaluated (separate tab)</li>
         </ul>
+        <p class="text-center text-xl bottom-4">
+            <a href="https://qwiki.nixs.com/x/_ZVhBQ">NIX Wiki</a>
+        </p>
     </Content>
     <Content>
         <h3>Check yourself</h3>
