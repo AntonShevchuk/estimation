@@ -85,6 +85,14 @@
         </Notes>
     </Content>
     <Content>
+        <h3>Who is the competitor?</h3>
+        <p class="fragment">Are we better?</p>
+        <Notes>
+            — Буває, що замовник не вивчає конкурентів.<br/>
+            — А інколи навіть не знає про їх існування.<br/>
+        </Notes>
+    </Content>
+    <Content>
         <h3>Where's the Money, Lebowski? 👀</h3>
         <Notes>
             — Не забувайте про гроші.
