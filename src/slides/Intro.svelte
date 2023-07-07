@@ -15,21 +15,21 @@
 </TitleSlide>
 <TwoSides>
     <span slot="title">Anton Shevchuk</span>
-    <span slot="caption">
+    <div slot="caption">
         <ul class="text-left mr-16">
             <li class="whitespace-nowrap">from 2005 in web development</li>
             <li class="whitespace-nowrap">hundreds of estimations behind me</li>
             <li class="fragment whitespace-nowrap">not great</li>
             <li class="fragment whitespace-nowrap">not terrible</li>
         </ul>
-    </span>
+    </div>
     <img class="rounded-full" src="https://avatars.githubusercontent.com/u/142057?v=4" alt="Anton Shevchuk"/>
 </TwoSides>
 <MainPoint>
     <span slot="title">We need high-quality estimation 🥹</span>
     <span slot="caption">We don't have time for it 🤮</span>
     <Notes>
-        — Точність оцінки зростає логаріфмічно залежно від часу який витрачаємо на неї.<br/>
+        — Точність оцінки зростає логарифмічно залежно від часу який витрачаємо на неї.<br/>
         — Час який потрібен для збільшення точності оцінювання зростає по експоненті.<br/>
         〰️〰️〰️<br/><br/>
         – The accuracy of the estimate grows logarithmically depending on the effort.<br/>
