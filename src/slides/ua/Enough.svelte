@@ -1,13 +1,13 @@
 <script>
-    import Caption from '../lib/slide/Caption.svelte'
-    import MainPoint from '../lib/slide/MainPoint.svelte'
+    import Caption from '../../lib/slide/Caption.svelte'
+    import MainPoint from '../../lib/slide/MainPoint.svelte'
 </script>
 
 <MainPoint>
-    <span slot="title">Be the experts,<br/> stay professional!</span>
+    <span slot="title">Будьте експертами,<br/> залишайтесь професіоналами!</span>
 </MainPoint>
 <Caption>
-    Thank you for your time<br/>
+    Дякую за ваш час, сподіваюсь ми вклались у годину<br/>
     <br/>
     <div class="grid grid-cols-4 place-items-center text-sky-500 h-56 gap-4">
         <a href="mailto:anton.shevchuk@gmail.com" class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-neutral-800">

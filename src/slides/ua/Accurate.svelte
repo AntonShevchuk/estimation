@@ -1,10 +1,10 @@
 <script>
-    import Section from '../lib/slide/Section.svelte'
-    import Content from '../lib/slide/Content.svelte'
-    import Caption from '../lib/slide/Caption.svelte'
-    import TwoSides from '../lib/slide/TwoSides.svelte'
-    import Notes from '../lib/partial/Notes.svelte'
-    import Code from '../lib/partial/Code.svelte'
+    import Section from '../../lib/slide/Section.svelte'
+    import Content from '../../lib/slide/Content.svelte'
+    import Caption from '../../lib/slide/Caption.svelte'
+    import TwoSides from '../../lib/slide/TwoSides.svelte'
+    import Notes from '../../lib/partial/Notes.svelte'
+    import Code from '../../lib/partial/Code.svelte'
 
     import {
         ArrowTrendingDown,
@@ -12,19 +12,19 @@
     } from '@steeze-ui/heroicons'
     import { Icon } from '@steeze-ui/svelte-icon'
 
-    import aws from '../assets/aws.png'
-    import azure from '../assets/azure.png'
-    import google from '../assets/google.png'
-    import nginx from '../assets/nginx.png'
-    import redis from '../assets/redis.png'
-    import kubernetes from '../assets/kubernetes.png'
+    import aws from '../../assets/aws.png'
+    import azure from '../../assets/azure.png'
+    import google from '../../assets/google.png'
+    import nginx from '../../assets/nginx.png'
+    import redis from '../../assets/redis.png'
+    import kubernetes from '../../assets/kubernetes.png'
 
-    import c4 from '../assets/c4.png'
-    import cloudcraft from '../assets/cloudcraft.co.png'
-    import diagrams from '../assets/diagrams.net.png'
-    import sequence from '../assets/sequencediagram.org.png'
-    import dbdiagram from '../assets/dbdiagram.io.png'
-    import apiary from '../assets/apiary.io.png'
+    import c4 from '../../assets/c4.png'
+    import cloudcraft from '../../assets/cloudcraft.co.png'
+    import diagrams from '../../assets/diagrams.net.png'
+    import sequence from '../../assets/sequencediagram.org.png'
+    import dbdiagram from '../../assets/dbdiagram.io.png'
+    import apiary from '../../assets/apiary.io.png'
 
 </script>
 <section>
@@ -43,7 +43,7 @@
 
         <Notes>
             — Точна оцінка висуває підвищені вимоги до якості<br/>
-            — Ви повинні прагнути до похибки не більше 15%
+            — Ви повинні прагнути до похибки не більше 15%<br/>
         </Notes>
     </Content>
     <TwoSides>
@@ -57,7 +57,7 @@
             <img class="h-[6rem] opacity-60 absolute bottom-32 left-1/2" src="{kubernetes}" alt="Kubernetes"/>
         </div>
         <Notes>
-            — Вам потрібно зробити куди як більше, ніж просто оцінку
+            — Вам потрібно зробити куди як більше, ніж просто оцінку<br/>
         </Notes>
     </TwoSides>
     <TwoSides>

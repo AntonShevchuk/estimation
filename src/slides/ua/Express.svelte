@@ -1,10 +1,10 @@
 <script>
-    import Section from '../lib/slide/Section.svelte'
-    import Content from '../lib/slide/Content.svelte'
-    import Caption from '../lib/slide/Caption.svelte'
+    import Section from '../../lib/slide/Section.svelte'
+    import Content from '../../lib/slide/Content.svelte'
+    import Caption from '../../lib/slide/Caption.svelte'
 
-    import Notes from '../lib/partial/Notes.svelte'
-    import Badge from '../lib/partial/Badge.svelte'
+    import Notes from '../../lib/partial/Notes.svelte'
+    import Badge from '../../lib/partial/Badge.svelte'
 
     import {
         ArrowTrendingDown,
@@ -24,12 +24,6 @@
             — Експрес-оцінка проєкта надзвичайно важлива для бізнесу бо озвучує перші сподівання по сроках та бюджету.<br/>
             — Точність і оперативність оцінки можуть сприяти або руйнувати проєкт.<br/>
             — Тому для забезпечення успіху проєкту важливо мати надійний процес оцінки.<br/>
-            〰️〰️〰️<br/><br/>
-            — Express estimation of a project is a crucial factor for businesses as it represents the first "impression"
-            for deadlines and budget.<br/>
-            — The accuracy and promptness of an estimation can make or break a project, impacting both the budget and
-            the overall success of the project.<br/>
-            — Therefore, it is essential to have a reliable estimation process in place to ensure the project's success.<br/>
         </Notes>
     </Section>
     <Content>
@@ -49,9 +43,11 @@
                 </div>
             </div>
         </div>
-        <p class="text-center text-xl bottom-4">
-            <a href="https://qwiki.nixs.com/x/Y3QzBQ">NIX Wiki</a>
-        </p>
+        <Notes>
+            <p class="text-center text-xl bottom-4">
+                <a href="https://qwiki.nixs.com/x/Y3QzBQ">NIX Wiki</a>
+            </p>
+        </Notes>
     </Content>
     <Content>
         <h3>
@@ -63,7 +59,7 @@
         </h3>
         <Notes>
             — Клієнт — це користувач системи, який буде приносити гроші вашому замовнику.<br/>
-            — Тож ви повинні розуміти яку саме проблему вирішує проєкт для клієнта!
+            — Тож ви повинні розуміти яку саме проблему вирішує проєкт для клієнта!<br/>
         </Notes>
     </Content>
     <Content>
@@ -78,7 +74,7 @@
             by <Badge>having the best algorithms that deliver the fasters and relevant results</Badge>
         </p>
         <Notes>
-            – Що робимо?<br/>
+            — Що робимо?<br/>
             — Для кого робимо?<br/>
             — Яку проблему вирішуємо?<br/>
             — Як саме?<br/>
@@ -112,7 +108,7 @@
             — Таких відповідей не повинно більше бути<br/>
             — Так, я не знаю чи існують радіостанції, які за API дають можливість відправляти повідомлення до етеру,<br/>
             мені для пошуків такого рішення потрібен тиждень. За моїм досвідом, інтеграція подібних API<br/>
-            не займає багато часу, тож орієнтуємось на 40 годин розробки.
+            не займає багато часу, тож орієнтуємось на 40 годин розробки.<br/>
         </Notes>
     </Content>
     <Content>
@@ -150,7 +146,7 @@
             У нас будуть користувачі та адміністратор<br/>
             У нас будуть модератори для відгуків<br/>
             <br/>
-            Повідомлення до етеру будуть лише за важливих подій.
+            Повідомлення до етеру будуть лише за важливих подій.<br/>
         </Notes>
     </Content>
     <Content>
@@ -198,7 +194,7 @@
         <Notes>
             Експрес оцінка робиться за одну філіжанку кави.<br/>
             Звісно, для вивчення матеріалів може знадобитись набагато більше часу, <br/>
-            а ось для гіпотези та оцінки саме стіки часу
+            а ось для гіпотези та оцінки саме стіки часу<br/>
         </Notes>
     </Content>
     <Content>
@@ -214,7 +210,7 @@
             38-мь папуг та одне крильце — цей мультик звісно не про оцінку проєктів, але чому б і ні.<br/>
             Але ж ми, того, айтівці, тож давайте згадаємо запитання які бувають на співбесідах.<br/>
             — Скільки тенісних м'ячиків треба щоб заповнити шкільний автобус?<br/>
-            (для наглядності, можна взяти коробку та м'ячики заздалегідь)
+            (для наглядності, можна взяти коробку та м'ячики заздалегідь)<br/>
         </Notes>
     </Content>
     <Content>
@@ -307,7 +303,7 @@
             — Сутність, породжує CRUD або/та REST API + та ще трошки бізнес логіки<br/>
             — Ролі породжують перевірки та поділ прав<br/>
             — Інтеграція може займати 10 хвилин (Google Analytics) або місяці (платіжна система Нігерії)<br/>
-            — Звісно, для тих хто полюбляє мікросервіси, вам потрібно порахувати їхні інтеграції
+            — Звісно, для тих хто полюбляє мікросервіси, вам потрібно порахувати їхні інтеграції<br/>
         </Notes>
     </Content>
     <Content>
@@ -330,7 +326,7 @@
             Варіант II:<br/>
             — Це буде блог на Wordpress, вбудовуємо відео з YouTube, редагуємо також на YouTube,<br/>
             це буде коштувати $5000 і за тиждень ми зможемо продемонструвати першу версію сайту.<br/>
-            — Для компанії яка винаймає офіс в 20м² це гарна гіпотеза та оцінка.
+            — Для компанії яка винаймає офіс в 20м² це гарна гіпотеза та оцінка.<br/>
         </Notes>
     </Content>
     <Caption>

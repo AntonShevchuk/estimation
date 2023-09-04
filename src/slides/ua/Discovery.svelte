@@ -1,9 +1,9 @@
 <script>
-    import Section from '../lib/slide/Section.svelte'
-    import Caption from '../lib/slide/Caption.svelte'
-    import Content from '../lib/slide/Content.svelte'
+    import Section from '../../lib/slide/Section.svelte'
+    import Caption from '../../lib/slide/Caption.svelte'
+    import Content from '../../lib/slide/Content.svelte'
 
-    import Notes from '../lib/partial/Notes.svelte';
+    import Notes from '../../lib/partial/Notes.svelte';
 </script>
 <section>
     <Section>

@@ -1,42 +1,44 @@
 <script>
-    import Section from '../lib/slide/Section.svelte'
-    import Content from '../lib/slide/Content.svelte'
-    import Caption from '../lib/slide/Caption.svelte'
-    import Notes from '../lib/partial/Notes.svelte';
+    import Section from '../../lib/slide/Section.svelte'
+    import Content from '../../lib/slide/Content.svelte'
+    import Caption from '../../lib/slide/Caption.svelte'
+    import Notes from '../../lib/partial/Notes.svelte';
     import { ArrowTrendingDown, ArrowTrendingUp, Pencil, PresentationChartLine } from '@steeze-ui/heroicons'
     import { Icon } from '@steeze-ui/svelte-icon'
 </script>
 <section>
     <Section>
         <span slot="title">02. step forward</span>
-        <Notes>
-            – Шаг назустріч
-        </Notes>
     </Section>
     <Content>
         <h2>Rough estimation</h2>
+
         <p class="text-center text-xl bottom-4">
             <a href="https://qwiki.nixs.com/x/AYMe">NIX Wiki</a>
         </p>
+
+        <Notes>
+
+        </Notes>
     </Content>
     <Content>
         <h3>Nobody read f**king docs in 200 pages</h3>
         <Notes>
-            — Ніхто не оперує текстом у своїй уяві.<br/>
-            — 200 сторінок документації ніхто ніколи не читає (замовник не виключення).<br/>
-            — Після того як усі сказала, що прочитали документацію, то кожний уявляє якийсь свій проєкт.<br/>
+            — Nobody operates with text in their imagination.<br/>
+            — Nobody ever reads 200 pages of documentation (the customer is no exception).<br/>
+            — After everyone says they have read the documentation, everyone imagines their own project.<br/>
         </Notes>
     </Content>
     <Content>
         <h3>Imagery</h3>
         <p>inside my mind</p>
         <Notes>
-            У людей різні типи сприйняття інформації:<br/>
-            — візуальний — графічні ілюстрації, діаграми, схеми, фотографії і відео<br/>
-            — аудіальний — їм треба почуту інформацію<br/>
-            — кінестетичний — сприймають інформацію через дотик<br/>
-            — логічний — їм потрібна логічно і систематично організована інформація<br/>
-            Чи почули ви щось про текст?...
+            People have different types of information perception:<br/>
+            — visual - graphic illustrations, diagrams, schemes, photographs and videos;<br/>
+            — auditory - they need heard information;<br/>
+            — kinesthetic - they perceive information through touch;<br/>
+            — logical - they need logically and systematically organized information;<br/>
+            Have you heard anything about text?<br/>
         </Notes>
     </Content>
     <Content>
@@ -48,13 +50,13 @@
         </h3>
         <p class="fragment"><a href="https://www.invisionapp.com/">invision</a></p>
         <Notes>
-            — Зараз я вам розповім навіщо вам оті брендовані блокноти.<br/>
-            — Малюйте та робіть нотатки.<br/>
-            — Просіть аналітиків робити те саме.<br/>
-            — Намалюйте скріни до головних екранів.<br/>
-            — Пропишіть основні флоу.<br/>
-
-            За допомогою InVision ви взмозі поєднати ваші малюнки навігацією
+            — I'll tell you why you need those branded notebooks.<br/>
+            — Draw and take notes.<br/>
+            — Ask analysts to do the same.<br/>
+            — Draw screenshots of the main screens.<br/>
+            — Write down the main flows.<br/>
+            
+            With InVision, you can combine your drawings with navigation.<br/>
         </Notes>
     </Content>
     <Content>
@@ -66,7 +68,7 @@
         </h3>
         <p class="fragment"><a href="https://diagrams.net">diagrams.net</a> (draw.io)</p>
         <Notes>
-            Запам’ятайте diagrams.net (draw.io), це дійсно чудовий інструмент (безкоштовний)
+            Remember diagrams.net (draw.io), it's a really great tool (free).<br/>
         </Notes>
     </Content>
     <Content>
@@ -85,17 +87,17 @@
         <p class="fragment">👩‍🏫💻 📄 ☑️</p>
         <p class="fragment">👨‍💻💻 📈</p>
         <Notes>
-            Малюйте, але все ж таки лише малюнками доброї документації не зробиш.<br/>
-            — Пан Єрмак написав документацію.<br/>
-            — Тож, що ми тут бачимо?<br/>
-            — Бачу три ролі я, бачу ноутбук та мобільний додаток, кожен вигадає своє...<br/>
+            Draw, but still, you can't make good documentation with just drawings.<br/>
+            — A artist wrote the documentation.<br/>
+            — So, what do we see here?<br/>
+            — I see three roles, I see a laptop and a mobile app, everyone will come up with their own...<br/>
         </Notes>
     </Content>
     <Content>
         <h3>Meeting with estimation team</h3>
         <p class="fragment">knowledge sharing</p>
         <Notes>
-            Підготуйтесь до мітінга, не полінуйтесь намалювати декілька скринів (ви ж їх малювали?)
+            Prepare for the meeting, do not be lazy to draw a few screenshots (you did draw them, right?)<br/>
         </Notes>
     </Content>
     <Content>
@@ -110,6 +112,9 @@
         <p class="text-center text-xl bottom-4">
             <a href="https://qwiki.nixs.com/x/_ZVhBQ">NIX Wiki</a>
         </p>
+        <Notes>
+
+        </Notes>
     </Content>
     <Content>
         <h3>Check yourself</h3>
@@ -126,8 +131,8 @@
             1, 2, 4, 8, 12, 16, 24, 32, 40 m/h
         </h3>
         <Notes>
-            — Дотримуйтесь оцінок кратних дням
-            — Якщо оцінка більша ніж 80 m/h, то треба декомпозувати її
+            - Follow the estimates in multiples of days<br/>
+            - If the estimate is greater than 80 hours, then you need to decompose it<br/>
         </Notes>
     </Content>
     <Content>
