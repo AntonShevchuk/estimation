@@ -3,7 +3,7 @@
 
     import Reveal from 'reveal.js'
     import { onMount, tick } from 'svelte'
-    import Presentation from './Presentation.EN.svelte'
+    import Presentation from './Presentation.UA.svelte'
 
     export let app
     export let reveal

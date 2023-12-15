@@ -1,14 +1,17 @@
 <script>
-    import Caption from '../../lib/slide/Caption.svelte'
     import MainPoint from '../../lib/slide/MainPoint.svelte'
+    import Section from '../../lib/slide/Section.svelte'
 </script>
 
 <MainPoint>
-    <span slot="title">Будьте експертами,<br/> залишайтесь професіоналами!</span>
+    <span slot="title">Будьте експертами!</span>
+    <span slot="caption">Залишайтесь професіоналами!</span>
 </MainPoint>
-<Caption>
-    Дякую за ваш час, сподіваюсь ми вклались у годину<br/>
-    <br/>
+
+<Section>
+    <span slot="title">Дякую за ваш час</span>
+    <span slot="caption">Сподіваюсь ми вклались у годину</span>
+
     <div class="grid grid-cols-4 place-items-center text-sky-500 h-56 gap-4">
         <a href="mailto:anton.shevchuk@gmail.com" class="p-4 w-14 h-14 flex items-center justify-center shadow-lg rounded-lg bg-neutral-800">
 
@@ -41,4 +44,4 @@
         </a>
     </div>
 
-</Caption>
+</Section>

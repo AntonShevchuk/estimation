@@ -8,13 +8,13 @@
 </script>
 <section>
     <Section>
-        <span slot="title">02. step forward</span>
+        <span slot="title">Крок другий</span>
     </Section>
     <Content>
-        <h2>Rough estimation</h2>
+        <h2>Груба оцінка</h2>
     </Content>
     <Content>
-        <h3>Nobody read f**king docs in 200 pages</h3>
+        <h3>Ніхто не читає 200 сторінок чортової документації</h3>
         <Notes>
             — Ніхто не оперує текстом у своїй уяві.<br/>
             — 200 сторінок документації ніхто ніколи не читає (замовник не виключення).<br/>
@@ -22,8 +22,8 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Imagery</h3>
-        <p>inside my mind</p>
+        <h3>Образи</h3>
+        <p>у моїй голові</p>
         <Notes>
             У людей різні типи сприйняття інформації:<br/>
             — візуальний — графічні ілюстрації, діаграми, схеми, фотографії і відео<br/>
@@ -35,7 +35,7 @@
     </Content>
     <Content>
         <h3>
-            We need mockups
+            Нам потрібні макети
             <span class="w-8 h-8 mb-4 inline-block">
                 <Icon src={Pencil} theme="outline" class="inline text-sky-500" />
             </span>
@@ -53,7 +53,7 @@
     </Content>
     <Content>
         <h3>
-            More mockups
+            Більше макетів
             <span class="w-8 h-8 mb-4 inline-block">
                 <Icon src={PresentationChartLine} theme="outline" class="inline text-sky-500" />
             </span>
@@ -64,17 +64,17 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Mockups, mockups, mockups</h3>
+        <h3>Макети, макети, макети</h3>
         <ul>
-            <li class="fragment"><a href="https://www.figma.com">Figma</a> - $15/month</li>
-            <li class="fragment"><a href="https://www.figma.com/figjam/">FigJam</a> – $5/month</li>
-            <li class="fragment"><a href="https://www.axure.com">Axure RP</a> - $29/month</li>
-            <li class="fragment"><a href="https://balsamiq.cloud">Balsamiq Cloud</a> - $9/month</li>
-            <li class="fragment"><a href="https://draftium.com">draftium</a> - $99/year</li>
+            <li class="fragment"><a href="https://www.figma.com">Figma</a> - $15/місяць</li>
+            <li class="fragment"><a href="https://www.figma.com/figjam/">FigJam</a> – $5/місяць</li>
+            <li class="fragment"><a href="https://www.axure.com">Axure RP</a> - $29/місяць</li>
+            <li class="fragment"><a href="https://balsamiq.cloud">Balsamiq Cloud</a> - $9/місяць</li>
+            <li class="fragment"><a href="https://draftium.com">draftium</a> - $99/рік</li>
         </ul>
     </Content>
     <Content>
-        <h3>Draw the application</h3>
+        <h3>Намалюй додаток</h3>
         <p class="fragment"> 👨‍🎓📱 📚 📝💰</p>
         <p class="fragment">👩‍🏫💻 📄 ☑️</p>
         <p class="fragment">👨‍💻💻 📈</p>
@@ -86,29 +86,26 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Meeting with estimation team</h3>
-        <p class="fragment">knowledge sharing</p>
+        <h3>Мітинг з командою оцінку</h3>
+        <p class="fragment">обмін знань</p>
         <Notes>
-            Підготуйтесь до мітінга, не полінуйтесь намалювати декілька скринів (ви ж їх малювали?)<br/>
+            Підготуйтесь до мітинга, не полінуйтесь намалювати декілька скринів (ви ж їх малювали?)<br/>
         </Notes>
     </Content>
     <Content>
-        <h3>Feature list</h3>
+        <h3>Фіча лист</h3>
         <ul>
-            <li>Functional requirements</li>
-            <li>Non-functional requirements</li>
-            <li>Additional activities</li>
-            <li>Range of estimates - variability of implementation within our hypothesis</li>
-            <li>All risks are identified and evaluated (separate tab)</li>
+            <li>Функціональні вимоги</li>
+            <li>Не-функціональні вимоги</li>
+            <li>Додаткові активності</li>
+            <li>Варіативність оцінок</li>
+            <li>Ризики, краще з оцінкою</li>
         </ul>
         <Notes>
-            <p class="text-center text-xl bottom-4">
-                <a href="https://qwiki.nixs.com/x/_ZVhBQ">NIX Wiki</a>
-            </p>
         </Notes>
     </Content>
     <Content>
-        <h3>Check yourself</h3>
+        <h3>Перевір себе</h3>
     </Content>
     <Content>
         <h3>m/h</h3>
@@ -127,8 +124,8 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Check list</h3>
-        <h4><span class="text-sky-500 lowercase">for</span> Feature</h4>
+        <h3>Чек-лист</h3>
+        <h4><span class="text-sky-500 lowercase">на</span> Фічу</h4>
         <ul class="fragment text-left">
             <li>Studying the specification</li>
             <li>Architecture approval</li>
@@ -141,8 +138,8 @@
         </ul>
     </Content>
     <Content>
-        <h3>Check list</h3>
-        <h4><span class="text-sky-500 lowercase">for</span> Project</h4>
+        <h3>Чек-лист</h3>
+        <h4><span class="text-sky-500 lowercase">на</span> Проєкт</h4>
         <ul class="fragment text-left">
             <li>Studying documentation</li>
             <li>Studying existing code (if any)</li>
@@ -156,39 +153,39 @@
         </ul>
     </Content>
     <Content>
-        <h3>Tik-tak, eight hours</h3>
+        <h3>Тік-так, вісім годин</h3>
         <div class="flex flex-row">
             <div class="basis-1/2 m-4">
                 <h5>
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
                     </span>
-                    Input
+                    Вхідні дані
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Business idea</li>
-                    <li>Hypothesis</li>
-                    <li>Documentation</li>
-                    <li class="whitespace-nowrap">Feature list</li>
+                    <li class="whitespace-nowrap">Бізнес ідея</li>
+                    <li>Гіпотези</li>
+                    <li>Документація</li>
+                    <li>Фіче-лист</li>
                 </ul>
             </div>
             <div class="basis-1/2 m-4">
                 <h5>
-                    Output
+                    Результат
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500" />
                     </span>
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Estimation of all features</li>
-                    <li class="whitespace-nowrap">Clarifying questions</li>
-                    <li class="whitespace-nowrap">Visible risks</li>
-                    <li class="whitespace-nowrap">Estimation of all risks</li>
+                    <li class="whitespace-nowrap">Оцінка всіх фіч</li>
+                    <li class="whitespace-nowrap">Уточнюючи питання</li>
+                    <li class="whitespace-nowrap">Ризики</li>
+                    <li class="whitespace-nowrap">Оцінка ризиків</li>
                 </ul>
             </div>
         </div>
     </Content>
     <Caption>
-        — Not enough!
+        — Це ще не все!
     </Caption>
 </section>

@@ -21,6 +21,7 @@
     <Section>
         <span slot="title">01. first impression</span>
         <Notes>
+            — Express estimation is very important for our business and and our customer, we provide first deadlines and budget .<br/>
             — Express estimation of a project is a crucial factor for businesses as it represents the first "impression"
             for deadlines and budget.<br/>
             — The accuracy and promptness of an estimation can make or break a project, impacting both the budget and
@@ -83,11 +84,11 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Who is the competitor?</h3>
+        <h3>Who is the competitors?</h3>
         <p class="fragment">Are we better?</p>
         <Notes>
-            — It happens that the customer does not study competitors.
-            — And sometimes they don't even know about their existence.
+            — It happens that the customer does not study competitors.<br/>
+            — And sometimes they don't even know about their existence.<br/>
         </Notes>
     </Content>
     <Content>
@@ -105,7 +106,9 @@
         <h3>Any estimation</h3>
         <p class="fragment">Better than «nothing»</p>
         <Notes>
-            — I don't know how long it will take, I can't estimate it.<br/>
+            — I don't know how long it will take.<br/>
+            — I can't estimate it.<br/>
+
             — There shouldn't be any more of these answers.<br/>
             — Yes, I don't know if there are any radio stations that provide the ability to send messages to the air through an API.
             It will take me a week to search for such a solution. Based on my experience, integrating similar APIs does not take much time,
@@ -120,7 +123,8 @@
             </span>
         </h3>
         <Notes>
-            Our hypothesis is our foundation!
+            — Hypothesis is very powerful skill!
+            — Our hypothesis is our foundation!
         </Notes>
     </Content>
     <Content>
@@ -135,8 +139,8 @@
             <li class="fragment">Provide two or more hypotheses if possible</li>
         </ul>
         <Notes>
-            We need to calculate our hypotheses, decompose the worst moments.<br/>
-            If we need additional time for research, then discuss it!<br/>
+            — We need to calculate our hypotheses, decompose the worst moments.<br/>
+            — If we need additional time for research, then discuss it!<br/>
             <br/>
             Our social network will have the following features:<br/>
             — a list of customers and reviews about them<br/>

@@ -121,7 +121,7 @@
         <span slot="title">
             <a href="https://sequencediagram.org/" title="sequencediagram.org">Sequence Diagrams</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 title Sequance diagram
 
 Alice-&gt;Bob: Request
@@ -144,7 +144,7 @@ Bob-&gt;(3)Double click to edit text:
         <span slot="title">
             <a href="https://dbdiagram.io/" title="dbdiagram.io">DB Diagrams</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 // user
 Table user &lbrace;
     id int [pk, not null]
@@ -178,7 +178,7 @@ Table acl_roles &lbrace;
         <span slot="title">
             <a href="https://apiary.io" title="apiary.io">apiary.io</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 FORMAT: 1A
 HOST: https://polls.apiblueprint.org/
 

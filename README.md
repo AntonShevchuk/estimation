@@ -37,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-And than open http://127.0.0.1:4173/ page to open the presentation.
+And then open http://127.0.0.1:4173/ page to open the presentation.
 
 ## References
 

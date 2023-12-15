@@ -25,21 +25,16 @@
     import sequence from '../../assets/sequencediagram.org.png'
     import dbdiagram from '../../assets/dbdiagram.io.png'
     import apiary from '../../assets/apiary.io.png'
-
 </script>
 <section>
     <Section>
-        <span slot="title">03. finish line</span>
+        <span slot="title">Фінішна пряма</span>
         <Notes>
             – Фінішна пряма, та покінчимо з цими оцінками
         </Notes>
     </Section>
     <Content>
-        <h3>Accurate estimation</h3>
-
-        <p class="text-center text-xl bottom-4">
-            <a href="https://qwiki.nixs.com/x/MoMe">NIX Wiki</a>
-        </p>
+        <h3>Точна оцінка</h3>
 
         <Notes>
             — Точна оцінка висуває підвищені вимоги до якості<br/>
@@ -121,7 +116,7 @@
         <span slot="title">
             <a href="https://sequencediagram.org/" title="sequencediagram.org">Sequence Diagrams</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 title Sequance diagram
 
 Alice-&gt;Bob: Request
@@ -144,7 +139,7 @@ Bob-&gt;(3)Double click to edit text:
         <span slot="title">
             <a href="https://dbdiagram.io/" title="dbdiagram.io">DB Diagrams</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 // user
 Table user &lbrace;
     id int [pk, not null]
@@ -170,7 +165,7 @@ Table acl_roles &lbrace;
             <img src="{dbdiagram}" alt="dbdiagram.io" />
         </div>
         <Notes>
-            — Need more? — <a href="https://dbdocs.io/" title="dbdocs.io">dbdocs.io</a>!
+            — Більше? — <a href="https://dbdocs.io/" title="dbdocs.io">dbdocs.io</a>!
         </Notes>
     </TwoSides>
 
@@ -178,7 +173,7 @@ Table acl_roles &lbrace;
         <span slot="title">
             <a href="https://apiary.io" title="apiary.io">apiary.io</a>
         </span>
-        <Code slot="caption">
+        <Code slot="caption" language="" trim="" noescape="" lineNumbers="false" lineStartFrom="false">
 FORMAT: 1A
 HOST: https://polls.apiblueprint.org/
 
@@ -222,45 +217,45 @@ Polls is a simple API allowing consumers to view polls and vote in them.
         </Notes>
     </TwoSides>
     <Content>
-        <h3>Check yourself</h3>
+        <h3>Перевір себе</h3>
     </Content>
     <Content>
-        <h3>To infinity and 40 hours more</h3>
+        <h3>До 40 годин, або більше...</h3>
         <div class="flex flex-row">
             <div class="basis-1/2 m-4">
                 <h5>
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
                     </span>
-                    Input
+                    Вхідні дані
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Business idea</li>
-                    <li>Hypothesis</li>
-                    <li>Documentation</li>
-                    <li>Mockups</li>
-                    <li class="whitespace-nowrap">Feature list</li>
+                    <li class="whitespace-nowrap">Бізнес ідея</li>
+                    <li>Гіпотези</li>
+                    <li>Документація</li>
+                    <li>Макети</li>
+                    <li>Документація</li>
                 </ul>
             </div>
             <div class="basis-1/2 m-4">
                 <h5>
-                    Output
+                    Результат
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500" />
                     </span>
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Evaluation of all features</li>
-                    <li class="whitespace-nowrap">High level architecture</li>
-                    <li class="whitespace-nowrap">Draft of the Cloud</li>
-                    <li class="whitespace-nowrap">Draft of the DB structure</li>
-                    <li class="whitespace-nowrap">Draft of the API</li>
+                    <li class="whitespace-nowrap">Оцінка всіх фіч</li>
+                    <li class="whitespace-nowrap">Високо рівнева архітектура</li>
+                    <li class="whitespace-nowrap">Проєкт cloud архітектури</li>
+                    <li class="whitespace-nowrap">Проєкт бази даних</li>
+                    <li class="whitespace-nowrap">Проєкт API</li>
                 </ul>
             </div>
         </div>
     </Content>
     <Caption>
-        — It was last step?<br/>
-        <span class="fragment"> — Nope...</span>
+        — Це був останній крок?<br/>
+        <span class="fragment"> — Ніт, не завжди...</span>
     </Caption>
 </section>

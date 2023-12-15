@@ -3,7 +3,6 @@
     import Express      from './slides/ua/Express.svelte'
     import Rough        from './slides/ua/Rough.svelte'
     import Accurate     from './slides/ua/Accurate.svelte'
-    import Discovery    from './slides/ua/Discovery.svelte'
     import Enough       from './slides/ua/Enough.svelte'
 </script>
 
@@ -11,5 +10,4 @@
 <Express/>
 <Rough/>
 <Accurate/>
-<Discovery/>
 <Enough/>
