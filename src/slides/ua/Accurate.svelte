@@ -227,14 +227,14 @@ Polls is a simple API allowing consumers to view polls and vote in them.
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
                     </span>
-                    Вхідні дані
+                    Маємо
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Бізнес ідея</li>
+                    <li class="whitespace-nowrap">Бізнес ідею</li>
                     <li>Гіпотези</li>
-                    <li>Документація</li>
+                    <li>Документацію</li>
                     <li>Макети</li>
-                    <li>Документація</li>
+                    <li class="whitespace-nowrap">Фіче-листа</li>
                 </ul>
             </div>
             <div class="basis-1/2 m-4">

@@ -93,7 +93,7 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Фіча лист</h3>
+        <h3>Фіче-лист</h3>
         <ul>
             <li>Функціональні вимоги</li>
             <li>Не-функціональні вимоги</li>
@@ -111,9 +111,9 @@
         <h3>m/h</h3>
         <ul>
             <li>0.1 m/h<span class="fragment text-sky-500">&nbsp;— O_o</span></li>
-            <li>0.5 .. 1 m/h<span class="fragment text-sky-500">&nbsp;— you are forgot something</span></li>
-            <li>3 m/h<span class="fragment text-sky-500">&nbsp;— you will spend 4 m/h ;)</span></li>
-            <li>9 m/h<span class="fragment text-sky-500">&nbsp;— 8 hours for task and 1 more for ☕️ and 🚬</span></li>
+            <li>0.5 .. 1 m/h<span class="fragment text-sky-500">&nbsp;— щось забули</span></li>
+            <li>3 m/h<span class="fragment text-sky-500">&nbsp;— ви витратите 4 години ;)</span></li>
+            <li>9 m/h<span class="fragment text-sky-500">&nbsp;— 8 години на таск, та ще 1 на ☕️ та 🚬</span></li>
         </ul>
         <h3 class="fragment mt-4">
             1, 2, 4, 8, 12, 16, 24, 32, 40 m/h
@@ -127,12 +127,12 @@
         <h3>Чек-лист</h3>
         <h4><span class="text-sky-500 lowercase">на</span> Фічу</h4>
         <ul class="fragment text-left">
-            <li>Studying the specification</li>
-            <li>Architecture approval</li>
-            <li>Implementation (included migrations, tests, etc.)</li>
-            <li>Smoke testing</li>
-            <li>Bug fixing</li>
-            <li>Code review</li>
+            <li>Вивчення специфікації</li>
+            <li>Схвалення архітектури</li>
+            <li>Реалізація (включаючи міграції, тести тощо)</li>
+            <li>Smoke-тестування</li>
+            <li>Виправлення помилок</li>
+            <li>Review коду</li>
             <li>Merge</li>
             <li>Deploy</li>
         </ul>
@@ -141,15 +141,15 @@
         <h3>Чек-лист</h3>
         <h4><span class="text-sky-500 lowercase">на</span> Проєкт</h4>
         <ul class="fragment text-left">
-            <li>Studying documentation</li>
-            <li>Studying existing code (if any)</li>
-            <li>Architecture development</li>
-            <li>Design development</li>
-            <li>Setting up the working environment</li>
-            <li>Setting up CI/CD systems</li>
+            <li>Вивчення документації</li>
+            <li>Вивчення існуючого коду (якщо він є)</li>
+            <li>Розробка архітектури</li>
+            <li>Розробка дизайну</li>
+            <li>Налаштування робочого середовища</li>
+            <li>Налаштування систем CI/CD</li>
             <li>Deployment</li>
-            <li>Communication within the team</li>
-            <li>Skill-up on necessary technologies</li>
+            <li>Спілкування в команді</li>
+            <li>Skill-up з необхідних технологій</li>
         </ul>
     </Content>
     <Content>
@@ -160,12 +160,12 @@
                     <span class="w-8 h-8 mb-4 inline-block">
                         <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
                     </span>
-                    Вхідні дані
+                    Маємо
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Бізнес ідея</li>
+                    <li class="whitespace-nowrap">Бізнес ідею</li>
                     <li>Гіпотези</li>
-                    <li>Документація</li>
+                    <li>Документацію</li>
                     <li>Фіче-лист</li>
                 </ul>
             </div>

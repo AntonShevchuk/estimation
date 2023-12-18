@@ -1,27 +1,28 @@
 <script>
-    import Section from '../../lib/slide/Section.svelte'
-    import Content from '../../lib/slide/Content.svelte'
-    import Caption from '../../lib/slide/Caption.svelte'
+  import Section from '../../lib/slide/Section.svelte'
+  import Content from '../../lib/slide/Content.svelte'
+  import Caption from '../../lib/slide/Caption.svelte'
 
-    import Notes from '../../lib/partial/Notes.svelte'
-    import Badge from '../../lib/partial/Badge.svelte'
+  import Notes from '../../lib/partial/Notes.svelte'
+  import Badge from '../../lib/partial/Badge.svelte'
 
-    import {
-        ArrowTrendingDown,
-        ArrowTrendingUp,
-        ArrowUturnLeft,
-        ChatBubbleLeftEllipsis,
-        LightBulb,
-        User
-    } from '@steeze-ui/heroicons'
-    import { Icon } from '@steeze-ui/svelte-icon'
+  import {
+    ArrowTrendingDown,
+    ArrowTrendingUp,
+    ArrowUturnLeft,
+    ChatBubbleLeftEllipsis,
+    LightBulb,
+    User
+  } from '@steeze-ui/heroicons'
+  import { Icon } from '@steeze-ui/svelte-icon'
 </script>
 
 <section>
     <Section>
         <span slot="title">Крок перший</span>
         <Notes>
-            — Перша оцінка проєкта надзвичайно важлива для бізнесу бо озвучує перші сподівання по сроках та бюджету.<br/>
+            — Перша оцінка проєкта надзвичайно важлива для бізнесу бо озвучує перші сподівання по сроках та
+            бюджету.<br/>
             — Точність і оперативність оцінки можуть сприяти або зруйнувати проєкт.<br/>
             — Тому для забезпечення успіху проєкту важливо мати надійний процес оцінки.<br/>
         </Notes>
@@ -51,7 +52,7 @@
             Бізнес ідея
 
             <span class="w-8 h-8 mb-4 inline-block">
-                <Icon src={LightBulb} theme="outline" class="inline text-sky-500" />
+                <Icon src={LightBulb} theme="outline" class="inline text-sky-500"/>
             </span>
         </h3>
         <Notes>
@@ -61,14 +62,28 @@
     </Content>
     <Content>
         <p class="leading-relaxed">
-            <Badge>Наш продукт</Badge> з <Badge>певної категорії</Badge> для <Badge>окремої аудиторії</Badge>,
-            який <Badge>вирішує якусь проблему</Badge> у <Badge>свій унікальний спосіб</Badge>
+            <Badge>Наш продукт</Badge>
+            з
+            <Badge>певної категорії</Badge>
+            для
+            <Badge>окремої аудиторії</Badge>
+            ,
+            який
+            <Badge>вирішує якусь проблему</Badge>
+            у
+            <Badge>свій унікальний спосіб</Badge>
         </p>
         <p class="fragment leading-relaxed">
             〰️〰️〰️<br/>
-            <Badge>Google</Badge> це <Badge>пошукова система</Badge> для <Badge>кожної людині в світі</Badge>
-            яка <Badge>допомагає людям швидко знайти релевантну інформацію</Badge>
-            за допомоги <Badge>унікальних алгоритмів пошуку</Badge>
+            <Badge>Google</Badge>
+            це
+            <Badge>пошукова система</Badge>
+            для
+            <Badge>кожної людині в світі</Badge>
+            яка
+            <Badge>допомагає людям швидко знайти релевантну інформацію</Badge>
+            за допомоги
+            <Badge>унікальних алгоритмів пошуку</Badge>
         </p>
         <Notes>
             — Що робимо?<br/>
@@ -103,7 +118,8 @@
         <Notes>
             — Я не знаю скільки треба часу на це, я не можу дати оцінку на це.<br/>
             — Таких відповідей не повинно більше бути<br/>
-            — Так, я не знаю чи існують радіостанції, які за API дають можливість відправляти повідомлення до етеру,<br/>
+            — Так, я не знаю чи існують радіостанції, які за API дають можливість відправляти повідомлення до
+            етеру,<br/>
             мені для пошуків такого рішення потрібен тиждень. За моїм досвідом, інтеграція подібних API<br/>
             не займає багато часу, тож орієнтуємось на 40 годин розробки.<br/>
         </Notes>
@@ -112,7 +128,7 @@
         <h3>
             Гіпотези
             <span class="w-8 h-8 mb-4 inline-block">
-                <Icon src={ChatBubbleLeftEllipsis} theme="outline" class="inline text-sky-500" />
+                <Icon src={ChatBubbleLeftEllipsis} theme="outline" class="inline text-sky-500"/>
             </span>
         </h3>
         <Notes>
@@ -155,21 +171,21 @@
             <div class="basis-1/2 m-4">
                 <h5>
                     <span class="w-8 h-8 mb-4 inline-block">
-                        <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500" />
+                        <Icon src={ArrowTrendingDown} theme="outline" class="inline text-sky-500"/>
                     </span>
-                    Вхідні дані
+                    Маємо
                 </h5>
                 <ul class="text-left">
-                    <li class="whitespace-nowrap">Бізнес ідея</li>
-                    <li class="whitespace-nowrap">Інформація про замовника</li>
-                    <li class="whitespace-nowrap">Вимоги від замовника<span class="text-red-600">*</span></li>
+                    <li class="whitespace-nowrap">Бізнес ідею</li>
+                    <li class="whitespace-nowrap">Вимоги<span class="text-red-600">*</span></li>
+                    <li class="whitespace-nowrap">Інформацію<br/>про замовника<span class="text-red-600">*</span></li>
                 </ul>
             </div>
             <div class="basis-1/2 m-4">
                 <h5>
                     Результат
                     <span class="w-8 h-8 mb-4 inline-block">
-                        <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500" />
+                        <Icon src={ArrowTrendingUp} theme="outline" class="inline text-sky-500"/>
                     </span>
                 </h5>
                 <ul class="text-left">
@@ -238,6 +254,10 @@
                         <td>I know how</td>
                         <td>8</td>
                     </tr>
+                </table>
+            </div>
+            <div class="ml-2 mr-2 pl-2 pr-2 border-l-2 border-r-2 border-gray-700">
+                <table class="text-lg table-auto">
                     <tr>
                         <td>and one more ☕</td>
                         <td>12</td>
@@ -286,7 +306,7 @@
             </div>
         </div>
         <Notes>
-            <a href="https://twitter.com/sevaorlasvegas/status/1153635852997865473">source of this joke</a>
+            адоптація <a href="https://twitter.com/sevaorlasvegas/status/1153635852997865473">жарту з твітеру</a>
         </Notes>
     </Content>
     <Content>
@@ -310,7 +330,8 @@
             яка буде коштувати замовнику <strong class="text-red-600">$$</strong> грошей?
         </p>
         <Notes>
-            Якщо результат вас «лякає», то можливо треба підготувати пропозал, який буде відповідати бюджету замовника?<br/>
+            Якщо результат вас «лякає», то можливо треба підготувати пропозал, який буде відповідати бюджету
+            замовника?<br/>
             Чи вашій уяві про його бюджет ¯\_(ツ)_/¯<br/>
             <br/>
             Приклад проєкта:<br/>
