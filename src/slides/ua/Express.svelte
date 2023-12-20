@@ -28,7 +28,7 @@
         </Notes>
     </Section>
     <Content>
-        <h2>Експрес оцінка</h2>
+        <h2>Експрес-оцінка</h2>
         <div class="fragment border border-blue-300 shadow rounded-md p-3 max-w-sm w-full mx-auto bg-white">
             <div class="flex space-x-4">
                 <div class="rounded-full bg-sky-400 h-10 w-10">
@@ -82,7 +82,7 @@
             <Badge>кожної людині в світі</Badge>
             яка
             <Badge>допомагає людям швидко знайти релевантну інформацію</Badge>
-            за допомоги
+            за допомогою
             <Badge>унікальних алгоритмів пошуку</Badge>
         </p>
         <Notes>
@@ -113,7 +113,7 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Будь яка оцінка</h3>
+        <h3>Хоч яка оцінка</h3>
         <p class="fragment">Краще ніж «ніяка»</p>
         <Notes>
             — Я не знаю скільки треба часу на це, я не можу дати оцінку на це.<br/>
@@ -163,10 +163,10 @@
         </Notes>
     </Content>
     <Content>
-        <h3>Експрес оцінка</h3>
+        <h3>Експрес-оцінка</h3>
     </Content>
     <Content>
-        <h3>E<span class="text-red-600">spresso</span></h3>
+        <h3>Е<span class="text-red-600">к</span>спресо</h3>
         <div class="flex flex-row">
             <div class="basis-1/2 m-4">
                 <h5>
@@ -263,7 +263,7 @@
                         <td>12</td>
                     </tr>
                     <tr>
-                        <td>and energy drink</td>
+                        <td>and an energy drink</td>
                         <td>16</td>
                     </tr>
                     <tr>

@@ -5,7 +5,7 @@
     import Notes from '../../lib/partial/Notes.svelte'
 </script>
 <TitleSlide>
-    <span slot="title">Нескінченність не межа</span>
+    <span slot="title">До горизонту подій</span>
     <span slot="caption">або історія як ми робимо оцінки проєктів</span>
     <Notes>
         - Коли ми кажемо про оцінку проєктів, то маємо на увазі експертну оцінку.<br/>
@@ -18,7 +18,7 @@
             <li class="whitespace-nowrap">у 2005 прийшов у web-розробку</li>
             <li class="whitespace-nowrap">з того часу зробив сотні оцінок</li>
             <li class="fragment whitespace-nowrap">не добре</li>
-            <li class="fragment whitespace-nowrap">тай не погано</li>
+            <li class="fragment whitespace-nowrap">та й не погано</li>
         </ul>
     </div>
     <img class="rounded-full" src="https://avatars.githubusercontent.com/u/142057?v=4" alt="Anton Shevchuk"/>
